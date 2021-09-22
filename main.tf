@@ -1,4 +1,4 @@
-#The   configuration for the `remote` backend.
+#The  configuration for the `remote` backend.
      terraform {
 	   required_providers {
 		okta = {
@@ -21,8 +21,8 @@
 	 resource "okta_user" "example" {
 	  first_name         = "terraformFName"
 	  last_name          = "terraformLName"
-	  login              = "vijay.kumar@terraform.com"
-	  email              = "vijay.kumar@terraform.com"
+	  login              = "terraformemail@terraform.com"
+	  email              = "terraformemail@terraform.com"
 	   
 	}
 	 resource "okta_policy_password" "example" {
