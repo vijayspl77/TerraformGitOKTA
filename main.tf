@@ -15,18 +15,18 @@
        api_token = "00PYS6PZoOnXNh0d83MBaGpKMhcLc9caBZJRKuG-wM"
      }
 	 resource "okta_group" "example" {
-       name        = "Terraform"
+       name        = "TerraformGroup"
        description = "My Terraform Group"
      }
 	 resource "okta_user" "example" {
-	  first_name         = "vijay"
-	  last_name          = "kumar"
-	  login              = "vijay.kumar@example.com"
-	  email              = "vijay.kumar@example.com"
+	  first_name         = "terraformFName"
+	  last_name          = "terraformLName"
+	  login              = "vijay.kumar@terraform.com"
+	  email              = "vijay.kumar@terraform.com"
 	   
 	}
 	 resource "okta_policy_password" "example" {
-	  name                   = "terraform"
+	  name                   = "terraformPwdPolicy"
 	  status                 = "ACTIVE"
 	  description            = "terraform policy"
 	  password_history_count = 4
