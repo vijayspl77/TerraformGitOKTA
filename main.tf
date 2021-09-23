@@ -31,5 +31,5 @@
 	  description            = "terraform policy"
 	  password_history_count = 4
 	  password_min_length=10
-          password_auto_unlock_minutes=30
+          password_auto_unlock_minutes=35
 	}
